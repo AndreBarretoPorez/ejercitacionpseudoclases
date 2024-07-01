@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+:dir(ltr){ 
+    background-color: rgb(246, 248, 245);
+}
+:dir(rtl) {
+    background-color: powderblue;
+  }
+  p:not(.ejemplo_1) {
+    color: chocolate;
+  }
+ 
+  .cajaAzul:focus{
+    background-color: blue;
+    color: aliceblue;
+    line-break: normal;
+  }
+  .cajaAmarilla:focus {
+    background-color:rgb(202, 241, 23) ;
+    color: aliceblue;
+    line-break: normal;
+  }
+  ul li:first-child {
+    color: rgb(240, 33, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  :read-write {
+    min-width: 30px;
+  }
+
+  p:last-of-type {
+   background-color: blueviolet; 
+   color: black;
+   }
+
+   input:out-of-range {
+    background-color: crimson;
+  }
+p:last-of-type {
+  color: rgb(248, 206, 214);
+  size: 33px;
+
+}
+@page :left {
+  margin: 60px 30px;
+}
+:scope{
+  background-color: cornflowerblue;
+}
+
+.ejemplo_empty:empty{
+  background-color: blueviolet;
+
+}

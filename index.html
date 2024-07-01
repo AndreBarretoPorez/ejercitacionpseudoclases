@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pseudo-clases</title>
+</head>
+<body>
+    <h1> Pseudo-clases</h1>
+    <section>
+        <h2>1.Pseudo-clase :dir</h2>
+        <p  dir="rtl">Texto a la derecha</p>
+        <p dir="ltr">Texto a la izquierda</p>
+        <p  dir="rtl">Otro texto a la derecha</p>
+        <p dir="ltr">Otro texto a la izquierda</p>
+        
+    </section>
+
+    <section>
+        <h2>2. Pseudo-clase :not</h2>
+        <p class="ejemplo_1">Texto importante</p>
+        <p class="ejemplo_2">Texto no importante</p>
+        <h6 class="ejemplo_3">texto relevante</h6>
+        <samp class="ejemplo_4">Texto no relevante</samp>
+        
+    </section>
+
+    <section>
+        <h2>3. Pseudo-clase :focus</h2>
+        <input class="cajaAzul" 
+        value="seré de color azul cuando sea seleccionado" /><br />
+        <input  class="cajaAmarilla" value="seré de color amarillo cuando sea seleccionado"/>
+    </section>
+
+    <section>
+        <h2>4. Pseudo-clase :first-child</h2>
+        <ul>
+            <li>hijo 1</li>
+            <li>hijo 2</li>
+            <li>
+              hijo 3
+              <ul>
+                <li>nieto 1</li>
+                <li>nieto 2</li>
+                <li>nieto 3</li>
+              </ul>
+            </li>
+          </ul>
+    </section>
+    <section>
+        <h2>5. Pseudo-clase :read-write</h2>
+        <input tipe="text" class="campoEditable" value="Aquí puede escribir">      
+    </section>
+    <section>
+        <h2>6. Pseudo-clase :last-of-type</h2>
+        <p>Primera línea de texto</p>
+        <p>Segunda línea de texto</p>
+        <p>Tercera línea de texto </p>  
+    </section>
+
+    <section>
+        <h2>7. Pseudo-clase :out-of-range</h2>
+        <p>Escriba su edad</p>
+        <input type="number" min="1" max="120" value="55">
+    </section>
+    
+    <section>
+        <h2>8. Pseudo-clase :left </h2>
+    </section> 
+    <section>
+        <h2>9. Pseudo-clase :scope </h2>
+    </section>
+    <section>
+        <h2>10. Pseudo-clase :empty</h2>
+        <div class="ejemplo_empty"></div>
+        <p>párrafo</p>
+        <p>Parrafo corto</p>
+        <p>párrafo muy largo </p>  
+    </section>
+    
+</body>
+</html>
